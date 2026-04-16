@@ -16,7 +16,7 @@ class Solution(object):
     #마지막에 stack 이 비어있으면 True 아니면 False 
 
         for i, char in enumerate(s):
-            if i == 0 and char not in opening: #닫는 괄호로 시작하면 False
+            if i == 0 and char not in opening: #닫는 괄호로 시작하면 False/
                 return False
             
             if char in opening: #여는 괄호일 시 stack 에 추가 
@@ -36,5 +36,5 @@ class Solution(object):
 # s = "()[]{}"
 # s = "(]"
 # s = "([])"
-s = "([)]"
+# s = "([)]"
 print(Solution().isValid(s))

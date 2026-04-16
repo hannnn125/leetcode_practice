@@ -14,7 +14,7 @@ class Solution(object):
                     return "" #빈문자열 반환
         return prefix #prefix 반환
 
-#가장 긴 prefix를 찾아야하므로 긴->짧 순으로 탐색
+#가장 긴 prefix를 찾아야하므로 긴->짧 순으로 탐색.
 strs = ["flower","flow","flight"]
 # strs = ["dog","racecar","car"]
 # strs = ["a"]
