@@ -25,7 +25,7 @@ class Solution(object):
             elif char not in opening: #닫는 괄호 일 시 
                 if not stack or stack[-1]!=match[char]: # stack 이 비어있거나 마지막 stack open이 Not match면 False
                     return False
-                else: #stack open이 match면 stack 에서 제거
+                else: #stack open이 match면 stack 에서 제거.
                     stack.pop()
 
         return not stack
