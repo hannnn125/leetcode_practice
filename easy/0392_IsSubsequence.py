@@ -17,7 +17,7 @@ class Solution(object):
             return False
         else: 
             return True
-            
+             
 
 '''
 1차 시도: 실패 
